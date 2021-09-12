@@ -1,0 +1,11 @@
+Model Information:
+* title:	Marvels  Ultron Mark I
+* source:	https://sketchfab.com/3d-models/marvels-ultron-mark-i-9d3b36bec6014b7298f4254c0e7b6563
+* author:	asujata175 (https://sketchfab.com/asujata175)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Marvels  Ultron Mark I" (https://sketchfab.com/3d-models/marvels-ultron-mark-i-9d3b36bec6014b7298f4254c0e7b6563) by asujata175 (https://sketchfab.com/asujata175) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
