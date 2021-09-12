@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap');
+
+.con{
+    margin-top: 28px;
+    display: flex;
+    width: 99vw;
+    /* display: inline; */
+    height: 50px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    color: white;
+    font-family: 'Glory', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.4rem;
+    margin-left: 36px;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+.item{
+    float: right;
+    color: white;
+    margin-left: 35px;
+    /* margin-right: 5%; */
+}
+
+.cont{
+
+}

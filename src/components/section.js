@@ -1,19 +1,25 @@
 import { useEffect } from "react"
+import stylings from '../../styles/index/section.module.css'
 
-const Section = () => {
+const Section = (props) => {
 
+    console.log(props);
     useEffect(() => {
-        console.log("effect");
-        var my_awesome_script = document.createElement('script');
+        var scrollReveal = document.createElement("script");
 
-        my_awesome_script.setAttribute('src','http://example.com/site.js');
+        scrollReveal.setAttribute("src", "https://unpkg.com/scrollreveal");
 
-        document.head.appendChild(my_awesome_script);
+        document.head.appendChild(scrollReveal);
+        scrollReveal.onload = () => {
+
+        }
     }, [])
 
     return(
-        <div>
-            <h1>Hey</h1>
+        <div className={stylings.con}>
+            <section id={props.id}>
+                {props.children}
+            </section>
         </div>
     )
 }

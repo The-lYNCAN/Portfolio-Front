@@ -6,18 +6,25 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+
+h1{
+  margin: 0;
+  padding: 0;
 }
 
-* {
-  box-sizing: border-box;
+#cat{
+  fill: white;
 }
 
-@media (max-width: 991.98px) {
-  #test{
-    margin-left: auto;
-    margin-right: auto;
-  }
+#insta{
+  fill: white
+}
+
+#twitter{
+  fill: white;
+}
+
+#spadeWork{
+  fill: white;
 }
