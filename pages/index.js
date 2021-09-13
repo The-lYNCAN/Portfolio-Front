@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
+import moons from '../styles/index/top.module.css'
 import Section from '../src/components/section'
 import BackGround from '../src/components/background'
 import Top from '../src/components/top'
@@ -15,6 +16,21 @@ export default function Home() {
       //   element.style.transform = `translateX(${x}px) translateY(${y}px)`
       //   // console.log(x);
       // })
+      document.querySelectorAll(".circle").forEach(element => {
+        const y = (window.innerHeight - e.pageY * 5) / 100
+        const x = (window.innerWidth - e.pageX *5) / 100
+        // element.style.color = "red"
+        element.style.transform = `translateX(${x}px) translateY(${y}px)`
+        // console.log(x);
+      })
+
+      document.querySelectorAll(".moon").forEach(element => {
+        const y = (window.innerHeight - e.pageY * 5) / 100
+        const x = (window.innerWidth - e.pageX *5) / 100
+        // element.style.color = "red"
+        element.style.transform = `translateX(${x}px) translateY(${y}px)`
+        // console.log(x);
+      })
     }
   }, [])
 
@@ -24,6 +40,7 @@ export default function Home() {
       <BackGround />
       <Top />
       {/* <h1 style={{textAlign: "center"}}>hi</h1> */}
+
     </div>
   )
 }

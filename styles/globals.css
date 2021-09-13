@@ -28,3 +28,16 @@ h1{
 #spadeWork{
   fill: white;
 }
+
+#backsvg{
+  /* float: right; */
+  /* margin-left: 50vw; */
+  right: -20vw;
+  position: fixed;
+  transform: translateY(-120px);
+}
+
+
+.moon{
+  position: relative;
+}

@@ -1,5 +1,4 @@
 import s from '../../styles/index/nav.module.css'
-import github from '../../public/gitsvg.svg'
 
 const NavBar = () => {
     return(

@@ -6,6 +6,8 @@
     width: 99vw;
     /* display: inline; */
     height: 50px;
+    position: fixed;
+    top: 0;
 }
 
 .name{

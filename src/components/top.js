@@ -4,7 +4,7 @@ import s from '../../styles/index/top.module.css'
 const Top = () => {
     return(
         <Section id="top">
-            <h1>This is Kushagar Choudhary</h1>
+            <img className="moon" src="https://kuon.space/assets/img/moon.svg" />
         </Section>
     )
 }

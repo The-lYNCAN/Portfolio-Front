@@ -8,3 +8,143 @@
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(7,33,66,1) 100%);
     z-index: -2;
 }
+
+
+.stars{
+    background-color: white;
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0;
+}
+
+#one{
+    left: 40vw;
+    top: 10vh;
+}
+
+#two{
+    left: 30vw;
+    top: 15vh;
+}
+
+#three{
+    left: 45vw;
+    top: 18vh;
+}
+
+#four{
+    left: 80vw;
+    top: 20vh;
+}
+
+#five{
+    left: 80vw;
+    top: 15vh;
+}
+
+#six{
+    left: 90vw;
+    top: 85vh;
+}
+
+#seven{
+    left: 85vw;
+    top: 60vh;
+}
+
+#eight{
+    top: 63vh;
+    left: 65vw;
+}
+
+#nine{
+    left: 34vw;
+    top: 50vh;
+}
+
+#ten{
+    left: 69vw;
+    top: 10vh;
+}
+
+#eleven{
+    left: 26vw;
+    top: 20vh;
+}
+
+#twelve{
+    top: 69vh;
+    left: 40vw;
+}
+
+#thirteen{
+    top: 60vh;
+    left: 30vw;
+}
+
+#fourteen{
+    top: 40vh;
+    left: 90vw;
+}
+
+#fifteen{
+    top: 45vh;
+    left: 55vw;
+}
+
+#sixteen{
+    top: 80vh;
+    left: 55vw;
+}
+
+#seventeen{
+    top: 89vh;
+    left: 59vw;
+}
+
+#eighteen{
+    top: 30vh;
+    left: 45vw;
+}
+
+#nineteen{
+    top: 54vh;
+    left: 28vw;
+}
+
+#twenty{
+    top: 75vh;
+    left: 84vw;
+}
+
+#tone{
+    left: 65vw;
+    top: 5vh;
+}
+
+#ttwo{
+    left: 60vw;
+    top: 1vh;
+}
+
+#tthree{
+    top: 18vh;
+    right: 10vw;
+}
+
+#tfour{
+    top: 24vh;
+    right: 13vw;
+}
+
+#tfive{
+    bottom: 5vh;
+    right: 5vw;
+}
+
+#tsix{
+    bottom: 20vh;
+    right: 30vw;
+}
